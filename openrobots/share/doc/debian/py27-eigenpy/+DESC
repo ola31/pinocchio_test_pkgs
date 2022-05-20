@@ -1,0 +1,4 @@
+Bindings between numpy and eigen using boost::python
+
+Homepage:
+https://github.com/stack-of-tasks/eigenpy

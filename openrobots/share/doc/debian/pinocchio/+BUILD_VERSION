@@ -1,0 +1,8 @@
+-rw-r--r-- 1 rbulk robots 1013 Apr 14  2020 /local/robotpkg/var/lib/robotpkg/math/pinocchio/depend.mk
+-rw-r--r-- 1 rbulk robots 1176 May 22  2018 /local/robotpkg/var/lib/robotpkg/math/pinocchio/DESCR
+-rw-r--r-- 1 rbulk robots 13044 Nov  3 20:34 /local/robotpkg/var/lib/robotpkg/math/pinocchio/PLIST
+-rw-r--r-- 1 rbulk robots 1405 Jun  8  2021 /local/robotpkg/var/lib/robotpkg/math/pinocchio/patches/patch-an
+-rw-r--r-- 1 rbulk robots 1408 Mar  4 14:54 /local/robotpkg/var/lib/robotpkg/math/pinocchio/Makefile
+-rw-r--r-- 1 rbulk robots 2365 Mar  4 14:54 /local/robotpkg/var/lib/robotpkg/math/pinocchio/patches/patch-ad
+-rw-r--r-- 1 rbulk robots 372 Mar  4 14:54 /local/robotpkg/var/lib/robotpkg/math/pinocchio/distinfo
+-rw-r--r-- 1 rbulk robots 3935 Nov  3 20:34 /local/robotpkg/var/lib/robotpkg/math/pinocchio/patches/patch-ae

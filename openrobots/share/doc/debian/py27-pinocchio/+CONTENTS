@@ -1,0 +1,112 @@
+@cwd /opt/openrobots
+@name py27-pinocchio-2.6.5
+@blddep hpp-fcl-1.8.0~doc
+@pkgdep hpp-fcl>=1.4
+@blddep pinocchio-2.6.5
+@pkgdep pinocchio>=2.6.5
+@blddep py27-eigenpy-2.6.11
+@pkgdep py27-eigenpy>=2.6.7
+@blddep py27-hpp-fcl-1.8.0
+@pkgdep py27-hpp-fcl>=1.2.0
+@comment Wed Feb 19 17:48:17 CET 2020
+lib/python2.7/site-packages/pinocchio/__init__.py
+@comment MD5:0f49d4d7eb1846501b4aaf8e14c8f977
+lib/python2.7/site-packages/pinocchio/__init__.pyc
+@comment MD5:679dffe5b7df4fcf83881a06cfebca0d
+lib/python2.7/site-packages/pinocchio/__init__.pyo
+@comment MD5:679dffe5b7df4fcf83881a06cfebca0d
+lib/python2.7/site-packages/pinocchio/deprecated.py
+@comment MD5:24a44a8532f9fc044eb481b975b87d70
+lib/python2.7/site-packages/pinocchio/deprecated.pyc
+@comment MD5:5fca4b3216b921effec9570db04e3dd8
+lib/python2.7/site-packages/pinocchio/deprecated.pyo
+@comment MD5:5fca4b3216b921effec9570db04e3dd8
+lib/python2.7/site-packages/pinocchio/deprecation.py
+@comment MD5:ac0b00c6296220da4e5a23b5ee42ba80
+lib/python2.7/site-packages/pinocchio/deprecation.pyc
+@comment MD5:dbe9d352f70dc822dc7524319c1304a6
+lib/python2.7/site-packages/pinocchio/deprecation.pyo
+@comment MD5:dbe9d352f70dc822dc7524319c1304a6
+lib/python2.7/site-packages/pinocchio/explog.py
+@comment MD5:7a47ec1b8c6529ed2a1e4e61bb52488a
+lib/python2.7/site-packages/pinocchio/explog.pyc
+@comment MD5:826a00951ee1b7fda7fa40ec419afe3c
+lib/python2.7/site-packages/pinocchio/explog.pyo
+@comment MD5:826a00951ee1b7fda7fa40ec419afe3c
+lib/python2.7/site-packages/pinocchio/pinocchio_pywrap.so
+@comment Symlink:pinocchio_pywrap.so.2.6.5
+lib/python2.7/site-packages/pinocchio/pinocchio_pywrap.so.2.6.5
+@comment MD5:8bf365e63935db83358c05c2546e885b
+lib/python2.7/site-packages/pinocchio/robot_wrapper.py
+@comment MD5:2fce7b39d918fccbe6aa6c92686d34d6
+lib/python2.7/site-packages/pinocchio/robot_wrapper.pyc
+@comment MD5:4519ce71a33ea2ca7a3b01c9d8463496
+lib/python2.7/site-packages/pinocchio/robot_wrapper.pyo
+@comment MD5:4519ce71a33ea2ca7a3b01c9d8463496
+lib/python2.7/site-packages/pinocchio/romeo_wrapper.py
+@comment MD5:c57b99f41e84ccd9f837695e22506801
+lib/python2.7/site-packages/pinocchio/romeo_wrapper.pyc
+@comment MD5:d0306144e675259d1d76e9179b4a9ee6
+lib/python2.7/site-packages/pinocchio/romeo_wrapper.pyo
+@comment MD5:d0306144e675259d1d76e9179b4a9ee6
+lib/python2.7/site-packages/pinocchio/shortcuts.py
+@comment MD5:17965efcc1f73b26475365f06519a007
+lib/python2.7/site-packages/pinocchio/shortcuts.pyc
+@comment MD5:6fa9c79c9369c95457233b977d3b35e2
+lib/python2.7/site-packages/pinocchio/shortcuts.pyo
+@comment MD5:6fa9c79c9369c95457233b977d3b35e2
+lib/python2.7/site-packages/pinocchio/utils.py
+@comment MD5:75acf701e06be06785470fc092490b24
+lib/python2.7/site-packages/pinocchio/utils.pyc
+@comment MD5:d201c5f335345d1a0eb1a77d5e3b614f
+lib/python2.7/site-packages/pinocchio/utils.pyo
+@comment MD5:d201c5f335345d1a0eb1a77d5e3b614f
+lib/python2.7/site-packages/pinocchio/visualize/__init__.py
+@comment MD5:fedbfa48214a1188c9974711e9e9d242
+lib/python2.7/site-packages/pinocchio/visualize/__init__.pyc
+@comment MD5:6642829e2839982bc2bb6cb4295d916b
+lib/python2.7/site-packages/pinocchio/visualize/__init__.pyo
+@comment MD5:6642829e2839982bc2bb6cb4295d916b
+lib/python2.7/site-packages/pinocchio/visualize/base_visualizer.py
+@comment MD5:f76e562e8fe2d2d2cec06a338c0b1b8d
+lib/python2.7/site-packages/pinocchio/visualize/base_visualizer.pyc
+@comment MD5:550a73ff082961a960a5376c18c815d4
+lib/python2.7/site-packages/pinocchio/visualize/base_visualizer.pyo
+@comment MD5:550a73ff082961a960a5376c18c815d4
+lib/python2.7/site-packages/pinocchio/visualize/gepetto_visualizer.py
+@comment MD5:6b37b48d98cf0d705b4d70463d9f8d7e
+lib/python2.7/site-packages/pinocchio/visualize/gepetto_visualizer.pyc
+@comment MD5:24f256d58a44ac8cbd7fd527eff0cee5
+lib/python2.7/site-packages/pinocchio/visualize/gepetto_visualizer.pyo
+@comment MD5:24f256d58a44ac8cbd7fd527eff0cee5
+lib/python2.7/site-packages/pinocchio/visualize/meshcat_visualizer.py
+@comment MD5:9c6915a38a88c61dbbcea5de5a5143ac
+lib/python2.7/site-packages/pinocchio/visualize/meshcat_visualizer.pyc
+@comment MD5:87e2c1fd3c873c2fc83192a3b195a7fd
+lib/python2.7/site-packages/pinocchio/visualize/meshcat_visualizer.pyo
+@comment MD5:87e2c1fd3c873c2fc83192a3b195a7fd
+lib/python2.7/site-packages/pinocchio/visualize/panda3d_visualizer.py
+@comment MD5:326af8e4ce46a6a853e3680e027bb69c
+lib/python2.7/site-packages/pinocchio/visualize/panda3d_visualizer.pyc
+@comment MD5:3ad93c285638f1518ebd4f791f6507ea
+lib/python2.7/site-packages/pinocchio/visualize/panda3d_visualizer.pyo
+@comment MD5:3ad93c285638f1518ebd4f791f6507ea
+lib/python2.7/site-packages/pinocchio/visualize/rviz_visualizer.py
+@comment MD5:2d35af5b27fc7b61f855257108b699aa
+lib/python2.7/site-packages/pinocchio/visualize/rviz_visualizer.pyc
+@comment MD5:f881fbdf588db7923d1f8dd8a17bd165
+lib/python2.7/site-packages/pinocchio/visualize/rviz_visualizer.pyo
+@comment MD5:f881fbdf588db7923d1f8dd8a17bd165
+@cwd /opt/openrobots
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

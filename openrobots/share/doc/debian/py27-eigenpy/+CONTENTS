@@ -1,0 +1,136 @@
+@cwd /opt/openrobots
+@name py27-eigenpy-2.6.11
+@pkgcfl eigenpy-[0-9]*
+@pkgcfl py[0-9][0-9]-eigenpy-[0-9]*
+@comment Sat May 12 16:37:25 CEST 2018
+include/eigenpy/angle-axis.hpp
+@comment MD5:fae96e351f796f119235e41f88a11c68
+include/eigenpy/computation-info.hpp
+@comment MD5:759a58cf4401df2ed987828faf454dbf
+include/eigenpy/config.hpp
+@comment MD5:e1b9ec8cc1ee9779e602eb3aa224e0a7
+include/eigenpy/decompositions/EigenSolver.hpp
+@comment MD5:d909e5622f3680f24c698d712a2e6a05
+include/eigenpy/decompositions/LDLT.hpp
+@comment MD5:550f49fa94384f5fcb28903cf892471f
+include/eigenpy/decompositions/LLT.hpp
+@comment MD5:9cdde8cb87c1656b6776b0d8ac01d18a
+include/eigenpy/decompositions/SelfAdjointEigenSolver.hpp
+@comment MD5:399179934e584947d8b0e6d272b8f9d2
+include/eigenpy/decompositions/decompositions.hpp
+@comment MD5:508ecbf79540af259a183e2c4a4ca60a
+include/eigenpy/decompositions/minres.hpp
+@comment MD5:d1c4d96630e0f062f805762c87964c2e
+include/eigenpy/deprecated.hpp
+@comment MD5:a1e1e6f49681b49e52020e2e9b137637
+include/eigenpy/details.hpp
+@comment MD5:d5108c5be76ec70b8671c483b1b13671
+include/eigenpy/eigen-allocator.hpp
+@comment MD5:6a05d193518c623e96c2f8a1f782b908
+include/eigenpy/eigen-from-python.hpp
+@comment MD5:8accf01f8e5ba1b81948f1ba97a340bf
+include/eigenpy/eigen-to-python.hpp
+@comment MD5:208ef822dd05eeba982fac5489a07eae
+include/eigenpy/eigen-typedef.hpp
+@comment MD5:3a83a9cfc20ce5ffae65725c0b317a37
+include/eigenpy/eigenpy.hpp
+@comment MD5:b0f4f32c6dd3c5a2667f50ce3ea944fe
+include/eigenpy/exception.hpp
+@comment MD5:9bd37f005f9d04134016f3e310ca7c9b
+include/eigenpy/expose.hpp
+@comment MD5:3c2c6eb18b6be43995957d5d35bc8544
+include/eigenpy/fwd.hpp
+@comment MD5:f4d5bbbadb691c6658b3611381ec6de8
+include/eigenpy/geometry-conversion.hpp
+@comment MD5:2038e0d11c3a7ac038a68f4dc619fa29
+include/eigenpy/geometry.hpp
+@comment MD5:c2e796055abddec935164375187c820f
+include/eigenpy/memory.hpp
+@comment MD5:60fe758d989d0a3ce532079c32acfa9f
+include/eigenpy/numpy-allocator.hpp
+@comment MD5:54cdfcffccdd52953b996731a5b3f083
+include/eigenpy/numpy-map.hpp
+@comment MD5:119c6aa38f56147fe33eedea62ffba47
+include/eigenpy/numpy-type.hpp
+@comment MD5:c51a066ca578f6a459a05469e0632e8c
+include/eigenpy/numpy.hpp
+@comment MD5:346fffe02689377a84023c521aded6f5
+include/eigenpy/quaternion.hpp
+@comment MD5:46dc3ac23e3d01bd4b708e8f032af67e
+include/eigenpy/register.hpp
+@comment MD5:d5f3c3db222c72c363e6cd653b54dcd8
+include/eigenpy/registration.hpp
+@comment MD5:59583dca5e58fcbd72cdfab9ba5cceb3
+include/eigenpy/scalar-conversion.hpp
+@comment MD5:b77307efbc3bcb1954ccc0a50a1c9e7d
+include/eigenpy/solvers/BFGSPreconditioners.hpp
+@comment MD5:ebad1ba6434b102a7e4eba10eccf0718
+include/eigenpy/solvers/BasicPreconditioners.hpp
+@comment MD5:31df209a40c2b33f795811df5ed06f27
+include/eigenpy/solvers/ConjugateGradient.hpp
+@comment MD5:8755ccf75b54aa8350c94a7e3331c968
+include/eigenpy/solvers/IterativeSolverBase.hpp
+@comment MD5:5b99faf2aeeced66362e845ec7d4bd79
+include/eigenpy/solvers/LeastSquaresConjugateGradient.hpp
+@comment MD5:c4e6d2b93c2fd6f66ff27761608202f1
+include/eigenpy/solvers/SparseSolverBase.hpp
+@comment MD5:7baa2491523653d4d1ee87c1ed9e1d16
+include/eigenpy/solvers/preconditioners.hpp
+@comment MD5:4efe5643b3ca42776275db648cefd929
+include/eigenpy/solvers/solvers.hpp
+@comment MD5:5da9dde61d5cac40d91769079dec23e6
+include/eigenpy/stride.hpp
+@comment MD5:b8d275a0964407ec4f4f9e10b7812802
+include/eigenpy/swig.hpp
+@comment MD5:8b4f12d895d8fbe1a3586f6e970ab4b3
+include/eigenpy/ufunc.hpp
+@comment MD5:12d9388aa2bcb8a8cea79757a90bf391
+include/eigenpy/user-type.hpp
+@comment MD5:577b4410142a628a07ad595e9bf2fd74
+include/eigenpy/utils/is-aligned.hpp
+@comment MD5:02a124238b077b0ee7da1b776c454d85
+include/eigenpy/utils/is-approx.hpp
+@comment MD5:73bcc3fefd5017c046a5c3157ab6ff49
+include/eigenpy/utils/scalar-name.hpp
+@comment MD5:e160523d506c2c116c8370ce73cad20d
+include/eigenpy/version.hpp
+@comment MD5:aee1951cc54c54c1c672eaafce7f3361
+include/eigenpy/warning.hpp
+@comment MD5:59a8da811ccd0fc193b62bef5138b357
+lib/cmake/eigenpy/eigenpyConfig.cmake
+@comment MD5:1727d0a2f6b78e9c625c46c3dab93d8b
+lib/cmake/eigenpy/eigenpyConfigVersion.cmake
+@comment MD5:aaaedf573a89270166b08fbe4bbfc70d
+lib/cmake/eigenpy/eigenpyTargets-release.cmake
+@comment MD5:7d9ef47a47c95b67173b39076440b5ff
+lib/cmake/eigenpy/eigenpyTargets.cmake
+@comment MD5:504ebc3d1719259c7790c45f23cf6f08
+lib/libeigenpy.so
+@comment MD5:1c55327a0d01c4526ca98cf613d6a08d
+lib/pkgconfig/eigenpy.pc
+@comment MD5:91728a889a4ebb3039d96bb917cdb282
+lib/python2.7/site-packages/eigenpy/__init__.py
+@comment MD5:a4a72ae5543c4741f8da12c471cfdd9a
+lib/python2.7/site-packages/eigenpy/__init__.pyc
+@comment MD5:d4bcfa4dce87199ef4ab79348011706a
+lib/python2.7/site-packages/eigenpy/__init__.pyo
+@comment MD5:d4bcfa4dce87199ef4ab79348011706a
+lib/python2.7/site-packages/eigenpy/eigenpy_pywrap.so
+@comment MD5:3a171deab78937e644f27e4ac54ac2d7
+share/ament_index/resource_index/packages/eigenpy
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+share/eigenpy/package.xml
+@comment MD5:6046d0fec62e6de5994b5b2b206fa2d4
+@cwd /opt/openrobots
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

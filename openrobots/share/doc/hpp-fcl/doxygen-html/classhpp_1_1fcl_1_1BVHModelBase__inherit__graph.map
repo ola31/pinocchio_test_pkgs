@@ -1,0 +1,6 @@
+<map id="hpp::fcl::BVHModelBase" name="hpp::fcl::BVHModelBase">
+<area shape="rect" id="node3" href="$structboost_1_1serialization_1_1internal_1_1BVHModelBaseAccessor.html" title="boost::serialization\l::internal::BVHModelBaseAccessor" alt="" coords="5,155,233,196"/>
+<area shape="rect" id="node4" href="$classhpp_1_1fcl_1_1BVHModel.html" title="A class describing the bounding hierarchy of a mesh model or a point cloud model (which is viewed as ..." alt="" coords="258,155,394,196"/>
+<area shape="rect" id="node2" href="$classhpp_1_1fcl_1_1CollisionGeometry.html" title="The geometry for the object for collision or distance computation. " alt="" coords="132,5,312,32"/>
+<area shape="rect" id="node5" href="$structboost_1_1serialization_1_1internal_1_1BVHModelAccessor.html" title="boost::serialization\l::internal::BVHModelAccessor\&lt; BV \&gt;" alt="" coords="206,244,446,285"/>
+</map>

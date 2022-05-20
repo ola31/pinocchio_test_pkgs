@@ -1,0 +1,20 @@
+Section: robotpkg/math
+Priority: extra
+Maintainer: openrobots@laas.fr
+Source: /opt/robotpkg/var/lib/robotpkg/packages/bsd/Ubuntu-18.04-x86_64/pub/py27-eigenpy-2.6.11.tgz
+Package: robotpkg-py27-eigenpy
+Version: 2.6.11
+Architecture: amd64
+Homepage: https://github.com/stack-of-tasks/eigenpy
+Depends: libboost-python1.65-dev (>= 1.34.1), libboost-python1.65.1 (>= 1.34.1), libeigen3-dev (>= 3.0.0), libstdc++6, python-numpy (>= 1:1)
+Conflicts: robotpkg-py27-eigenpy (= 1.4.5), robotpkg-py36-eigenpy (= 2.6.9), robotpkg-py27-eigenpy (= 2.2.0), robotpkg-py36-eigenpy (= 1.4.5), robotpkg-py36-eigenpy (= 2.3.0), robotpkg-py27-eigenpy (= 2.6.5), robotpkg-py36-eigenpy (= 1.4.3), robotpkg-py27-eigenpy (= 2.6.5r1), robotpkg-py36-eigenpy (= 1.6.9), robotpkg-py27-eigenpy (= 1.6.12), robotpkg-py27-eigenpy (= 1.6.1), robotpkg-py36-eigenpy (= 2.6.7), robotpkg-py27-eigenpy (= 2.5.0), robotpkg-py36-eigenpy (= 1.4.4), robotpkg-py36-eigenpy (= 2.4.0), robotpkg-py36-eigenpy (= 2.2.0r1), robotpkg-py27-eigenpy (= 2.0.2), robotpkg-py36-eigenpy (= 2.6.2), robotpkg-py27-eigenpy (= 1.5.1), robotpkg-py27-eigenpy (= 2.2.0r1), robotpkg-py27-eigenpy (= 2.6.6), robotpkg-py36-eigenpy (= 2.6.1), robotpkg-py27-eigenpy (= 2.6.11), robotpkg-py27-eigenpy (= 2.6.4), robotpkg-py27-eigenpy (= 1.6.9), robotpkg-py27-eigenpy (= 2.6.7), robotpkg-py36-eigenpy (= 1.6.12), robotpkg-py36-eigenpy (= 1.5.1), robotpkg-py27-eigenpy (= 1.4.3), robotpkg-py36-eigenpy (= 2.0.2), robotpkg-py36-eigenpy (= 1.6.1), robotpkg-py36-eigenpy (= 2.6.5), robotpkg-py27-eigenpy (= 1.6.0), robotpkg-py36-eigenpy (= 2.6.6), robotpkg-py27-eigenpy (= 2.6.10), robotpkg-py36-eigenpy (= 2.6.5r1), robotpkg-py36-eigenpy (= 1.5.0), robotpkg-py36-eigenpy (= 2.6.3), robotpkg-py36-eigenpy (= 2.6.11), robotpkg-py27-eigenpy (= 2.3.0), robotpkg-py36-eigenpy (= 1.6.0), robotpkg-py36-eigenpy (= 2.5.0), robotpkg-py27-eigenpy (= 2.6.9), robotpkg-py36-eigenpy (= 2.4.3), robotpkg-py36-eigenpy (= 2.6.4), robotpkg-py27-eigenpy (= 2.6.1), robotpkg-py36-eigenpy (= 2.6.10), robotpkg-py27-eigenpy (= 2.4.0), robotpkg-py36-eigenpy (= 2.2.0), robotpkg-py27-eigenpy (= 2.4.3), robotpkg-py27-eigenpy (= 2.6.3), robotpkg-py27-eigenpy (= 1.4.4), robotpkg-py27-eigenpy (= 2.6.2), robotpkg-py27-eigenpy (= 1.5.0), robotpkg-py27-eigenpy
+Provides: robotpkg-py27-eigenpy
+Replaces: robotpkg-py27-eigenpy
+Description: Eigen bindings to python
+ License: 2-clause-bsd
+ Debian-Packager: robotpkg@laas.fr
+ Bindings between numpy and eigen using boost::python
+ .
+ Homepage:
+ https://github.com/stack-of-tasks/eigenpy
+

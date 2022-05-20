@@ -1,0 +1,37 @@
+BUILD_DATE=2022-05-17 13:33:10 +0200
+CATEGORIES=math
+CFLAGS=-pipe -O3 -DNDEBUG
+CMAKE_ARGS=-Wno-dev -DBUILD_UNIT_TESTS=ON -DINSTALL_DOCUMENTATION=OFF -DDOXYGEN_EXECUTABLE=false -DBoost_PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libboost_python-py27.so -DBoost_PYTHON_LIBRARY_RELEASE=/usr/lib/x86_64-linux-gnu/libboost_python-py27.so -DBoost_PYTHON_LIBRARY_DEBUG=/usr/lib/x86_64-linux-gnu/libboost_python-py27.so -DENFORCE_MINIMAL_CXX_STANDARD=ON -DCMAKE_INSTALL_LIBDIR=lib -DPYTHON_STANDARD_LAYOUT=ON -DBoost_NO_BOOST_CMAKE=ON -DPYTHON_EXECUTABLE=/usr/bin/python2.7 -DPYTHON_INCLUDE_DIR=/usr/include/python2.7/ -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7.so -DPYTHON_SITELIB=lib/python2.7/site-packages -DBUILD_PYTHON_INTERFACE=ON -DPYTHON_EXECUTABLE=/usr/bin/python2.7 -DPYTHON_INCLUDE_DIR=/usr/include/python2.7/ -DPYTHON_INCLUDE_DIR2=/usr/include/x86_64-linux-gnu/python2.7/ -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7.so -DPython_EXECUTABLE=/usr/bin/python2.7 -DPython2_EXECUTABLE=/usr/bin/python2.7 -DPython3_EXECUTABLE=/bin/false -DCMAKE_MODULE_PATH= -DCMAKE_PREFIX_PATH= -DBOOST_INCLUDEDIR=/usr/include -DBOOST_LIBRARYDIR=/usr/lib --no-warn-unused-cli -DUNIX=1 -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/opt/openrobots -DCMAKE_INSTALL_RPATH:PATH=/opt/openrobots/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_EXE_LINKER_FLAGS=    -DCMAKE_MAKE_PROGRAM=make -DCMAKE_C_FLAGS=  -pipe  -O3 -DNDEBUG -DCMAKE_C_FLAGS_DEBUG= -DCMAKE_C_FLAGS_RELEASE= -DCMAKE_CXX_FLAGS=  -pipe  -O3 -DNDEBUG -DCMAKE_CXX_FLAGS_DEBUG= -DCMAKE_CXX_FLAGS_RELEASE= -DPKGINFODIR=info -DPKGMANDIR=man
+CONFIGURE_ARGS=
+CPPFLAGS=
+DISTFILES=eigenpy-2.6.11.tar.gz
+FFLAGS=
+HOMEPAGE=https://github.com/stack-of-tasks/eigenpy
+LDFLAGS=
+LICENSE=2-clause-bsd
+LOCALBASE=/opt/openrobots
+MACHINE_ARCH=x86_64
+MACHINE_GNU_ARCH=
+MAINTAINER=openrobots@laas.fr
+NEEDED=boost-libs>=1.34.1:/usr/lib/x86_64-linux-gnu/libboost_python-py27.so
+NEEDED=boost-libs>=1.34.1:/usr/lib/x86_64-linux-gnu/libboost_python-py27.so.1.65.1
+NEEDED=eigen3>=3.0.0:/usr/include/eigen3/signature_of_eigen3_matrix_library
+NEEDED=eigen3>=3.0.0:/usr/share/pkgconfig/eigen3.pc
+NEEDED=libstdc++:/usr/lib/x86_64-linux-gnu/libstdc++.so.6
+NEEDED=py27-numpy>=1:/usr/lib/python2.7/dist-packages/numpy/__init__.py
+NEEDED=py27-numpy>=1:/usr/lib/python2.7/dist-packages/numpy/version.py
+OPSYS=Ubuntu
+OS_KERNEL=Linux
+OS_KERNEL_VERSION=4.15.0-177-generic
+OS_VERSION=18.04
+PATCHFILES=
+PKGBASE=py27-eigenpy
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=math/py-eigenpy
+PKGTOOLS_VERSION=20110805.12
+PKGVERSION=2.6.11
+PKG_OPTIONS=
+PKG_SYSCONFDIR=/opt/openrobots/etc
+PREFIX=/opt/openrobots
+PYTHON_VERSION=2.7

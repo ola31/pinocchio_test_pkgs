@@ -1,0 +1,4 @@
+<map id="hpp::fcl::QueryRequest" name="hpp::fcl::QueryRequest">
+<area shape="rect" id="node2" href="$structhpp_1_1fcl_1_1CollisionRequest.html" title="request to the collision algorithm " alt="" coords="5,80,177,107"/>
+<area shape="rect" id="node3" href="$structhpp_1_1fcl_1_1DistanceRequest.html" title="request to the distance computation " alt="" coords="201,80,376,107"/>
+</map>

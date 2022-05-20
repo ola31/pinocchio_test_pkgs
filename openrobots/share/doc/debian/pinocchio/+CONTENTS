@@ -1,0 +1,578 @@
+@cwd /opt/openrobots
+@name pinocchio-2.6.5
+@blddep hpp-fcl-1.8.0~doc
+@pkgdep hpp-fcl>=1.4
+@comment Wed Aug 29 15:36:27 CEST 2018
+include/pinocchio/algorithm/aba-derivatives.hpp
+@comment MD5:c9c79db6b0af3d1d4b02c2149480c5a2
+include/pinocchio/algorithm/aba-derivatives.hxx
+@comment MD5:4729bb8792803f92bad5e8b1340998c9
+include/pinocchio/algorithm/aba.hpp
+@comment MD5:140c2604a18748639c8c831b29db0032
+include/pinocchio/algorithm/aba.hxx
+@comment MD5:cbab764a74ca9bd8abd2620ab2c6c67b
+include/pinocchio/algorithm/center-of-mass-derivatives.hpp
+@comment MD5:cd51bab0d7ef2903c2c8f6a3f130ce36
+include/pinocchio/algorithm/center-of-mass-derivatives.hxx
+@comment MD5:8714e615c7e380417581b67c7df01f17
+include/pinocchio/algorithm/center-of-mass.hpp
+@comment MD5:2e7d640f7ffe77347091c0123ed6abcc
+include/pinocchio/algorithm/center-of-mass.hxx
+@comment MD5:69e04147dc2dd73b153e66811f7125a0
+include/pinocchio/algorithm/centroidal-derivatives.hpp
+@comment MD5:c646693bc6b727a3dc03c8008cac69ca
+include/pinocchio/algorithm/centroidal-derivatives.hxx
+@comment MD5:5bf3b5dc756330d5ff66d4510970f01a
+include/pinocchio/algorithm/centroidal.hpp
+@comment MD5:f516e2f91ec112f44a198ba9f2ed0267
+include/pinocchio/algorithm/centroidal.hxx
+@comment MD5:9745b173893e928ee8ad1a1cb02eb358
+include/pinocchio/algorithm/check.hpp
+@comment MD5:191a216e259a46d9ce7303f950e5b0cd
+include/pinocchio/algorithm/check.hxx
+@comment MD5:8e1a258ce192e83deb027bb8d3ccfe55
+include/pinocchio/algorithm/cholesky.hpp
+@comment MD5:1897ab51610e1371090d222458441088
+include/pinocchio/algorithm/cholesky.hxx
+@comment MD5:9df7de19563a7ed757d1c229426b94da
+include/pinocchio/algorithm/compute-all-terms.hpp
+@comment MD5:a8e0cc6f12c6374bbd96d13f21fee411
+include/pinocchio/algorithm/compute-all-terms.hxx
+@comment MD5:764a7946cf456beb39f694496b3f077b
+include/pinocchio/algorithm/contact-dynamics.hpp
+@comment MD5:4e45471b6cee0a39b8fa53f94fee87e5
+include/pinocchio/algorithm/contact-dynamics.hxx
+@comment MD5:296285e0ac806247b9575de5ea2c5c5a
+include/pinocchio/algorithm/copy.hpp
+@comment MD5:331c5b63e3915baf86067a701be73efd
+include/pinocchio/algorithm/crba.hpp
+@comment MD5:3379349b477322580784518f305e6aaa
+include/pinocchio/algorithm/crba.hxx
+@comment MD5:5c83908c55610e9d9e06adaceba03f87
+include/pinocchio/algorithm/default-check.hpp
+@comment MD5:e364810b66975f284aea86efc395d777
+include/pinocchio/algorithm/dynamics.hpp
+@comment MD5:bacd33335ab761c48782ce499d8910c0
+include/pinocchio/algorithm/energy.hpp
+@comment MD5:d2b8e6dae3e3675d30d67443f5b0b080
+include/pinocchio/algorithm/energy.hxx
+@comment MD5:a20c6151bafed8df66436d8f70e56fce
+include/pinocchio/algorithm/frames-derivatives.hpp
+@comment MD5:252daaee88f5fe00f1d3d27802a4db85
+include/pinocchio/algorithm/frames-derivatives.hxx
+@comment MD5:d09574092687b5a0f83e85ccbb41677e
+include/pinocchio/algorithm/frames.hpp
+@comment MD5:c584eb39bd6b68015e610ab8309c597b
+include/pinocchio/algorithm/frames.hxx
+@comment MD5:e16e28b4646d03241ed8a2262862811d
+include/pinocchio/algorithm/geometry.hpp
+@comment MD5:a912e10a3949a9b23d64e23301fa8820
+include/pinocchio/algorithm/geometry.hxx
+@comment MD5:1ffb4c5c9a96f4e50a889ccddb1b42f1
+include/pinocchio/algorithm/jacobian.hpp
+@comment MD5:ba4b13331e76dd7f4997be692b9018f8
+include/pinocchio/algorithm/jacobian.hxx
+@comment MD5:531a66145a02edeea8b4ce33071abc6b
+include/pinocchio/algorithm/joint-configuration.hpp
+@comment MD5:5e17a6a2b28c1abf553b482edc5fb1b8
+include/pinocchio/algorithm/joint-configuration.hxx
+@comment MD5:b976b897b6d2660995ce96c1e7452f58
+include/pinocchio/algorithm/kinematics-derivatives.hpp
+@comment MD5:f46970a7158deec2f9a7cb31fc3f3bef
+include/pinocchio/algorithm/kinematics-derivatives.hxx
+@comment MD5:d53909aceda96462c501d8611ea407be
+include/pinocchio/algorithm/kinematics.hpp
+@comment MD5:92097f32188b3fd5f6df55c6a649badf
+include/pinocchio/algorithm/kinematics.hxx
+@comment MD5:f094df98ada96a752d2083a5f154eee5
+include/pinocchio/algorithm/model.hpp
+@comment MD5:d722dc9f2958ace09e3bbdb90e65d502
+include/pinocchio/algorithm/model.hxx
+@comment MD5:c087fa356dd153702098b660960711d0
+include/pinocchio/algorithm/parallel/aba.hpp
+@comment MD5:338182d1b431fa9f3d4023ffd14a317c
+include/pinocchio/algorithm/parallel/geometry.hpp
+@comment MD5:8b7e5b54e88cf1ac6bc1b99d6d7e232b
+include/pinocchio/algorithm/parallel/rnea.hpp
+@comment MD5:ad650781300d2fb910a882cc06e7034b
+include/pinocchio/algorithm/regressor.hpp
+@comment MD5:4d63b0f10dfcbcb88773d6cb0ec450a2
+include/pinocchio/algorithm/regressor.hxx
+@comment MD5:ffb1f2b649122ad745212cb6a24b2ad1
+include/pinocchio/algorithm/rnea-derivatives.hpp
+@comment MD5:09585279e99f6b4c91ba36075bdd5d37
+include/pinocchio/algorithm/rnea-derivatives.hxx
+@comment MD5:5200f8dcaef3288ece95b25d8b32e662
+include/pinocchio/algorithm/rnea.hpp
+@comment MD5:64cb6233c1e438cbe5d7d31ccf10fb01
+include/pinocchio/algorithm/rnea.hxx
+@comment MD5:ff3eaaa3021c1809d4468bb1b37120cc
+include/pinocchio/autodiff/casadi.hpp
+@comment MD5:8873ec33a1c57c5b4294c2545ea526d1
+include/pinocchio/autodiff/casadi/math/matrix.hpp
+@comment MD5:33b56ed37f253ed957d0d9e4b843efa8
+include/pinocchio/autodiff/casadi/math/quaternion.hpp
+@comment MD5:e775d255f34cb8df4e44d33617a4f578
+include/pinocchio/autodiff/casadi/spatial/se3-tpl.hpp
+@comment MD5:f4204ddf70d46244c37725b4501d9878
+include/pinocchio/autodiff/casadi/utils/static-if.hpp
+@comment MD5:54795ac1e606d43ad512c1a48bfd36c0
+include/pinocchio/autodiff/cppad.hpp
+@comment MD5:da01c663e0ad06d93c6572df9eb78513
+include/pinocchio/autodiff/cppad/algorithm/aba.hpp
+@comment MD5:f7de75a65473835062297996dda12586
+include/pinocchio/autodiff/cppad/math/eigen_plugin.hpp
+@comment MD5:b05bb06ac26bd795bad13e08fa14fe6f
+include/pinocchio/autodiff/cppad/math/quaternion.hpp
+@comment MD5:6490c5f679f62d2a8c6bf23fde08fe96
+include/pinocchio/autodiff/cppad/spatial/log.hxx
+@comment MD5:17dfa62216bad37091bab1e4bc54107e
+include/pinocchio/autodiff/cppad/spatial/se3-tpl.hpp
+@comment MD5:ed20da764045b1e519a25feddef7a02c
+include/pinocchio/autodiff/cppad/utils/static-if.hpp
+@comment MD5:704ac3a2566462e4fbb7d70729f3dddf
+include/pinocchio/bindings/python/algorithm/algorithms.hpp
+@comment MD5:b57e3060251e62f29982a383510cb053
+include/pinocchio/bindings/python/fwd.hpp
+@comment MD5:79fd387f52dbbd6ff73bacd5060c2fdb
+include/pinocchio/bindings/python/multibody/data.hpp
+@comment MD5:b51dfdec3e0fccb2fedf7d5d8f6a52af
+include/pinocchio/bindings/python/multibody/fcl/transform.hpp
+@comment MD5:4973a4cf161756aaa1ac76e0bddd951f
+include/pinocchio/bindings/python/multibody/frame.hpp
+@comment MD5:8ad6b4364c78218c09dcda0518c1176f
+include/pinocchio/bindings/python/multibody/geometry-data.hpp
+@comment MD5:0f3ceb46b65c53443c3e972075352469
+include/pinocchio/bindings/python/multibody/geometry-model.hpp
+@comment MD5:7ccfe8ff8d7e000995c6a2347bded9d5
+include/pinocchio/bindings/python/multibody/geometry-object.hpp
+@comment MD5:290a67f2db7aeb25308ac1f6730fc1c7
+include/pinocchio/bindings/python/multibody/joint/joint-derived.hpp
+@comment MD5:94a8a52246ccecf029908af67e6d867c
+include/pinocchio/bindings/python/multibody/joint/joint.hpp
+@comment MD5:369ee6df1abf8fb45279ef51ea5e7e5f
+include/pinocchio/bindings/python/multibody/joint/joints-datas.hpp
+@comment MD5:4463c56bd8bd20fa27ed925c42e33931
+include/pinocchio/bindings/python/multibody/joint/joints-models.hpp
+@comment MD5:6b9c9c95ba1a9bd6158cf1270e59dcf7
+include/pinocchio/bindings/python/multibody/joint/joints-variant.hpp
+@comment MD5:22c5438134127249436cbfa2a8ced911
+include/pinocchio/bindings/python/multibody/liegroups.hpp
+@comment MD5:187991b45357391e36eac93ec2f98ce6
+include/pinocchio/bindings/python/multibody/model.hpp
+@comment MD5:e0171a042373002cbefcdfc04f570ce4
+include/pinocchio/bindings/python/parsers/python.hpp
+@comment MD5:4e324314a648a0113e1d064dca8694b1
+include/pinocchio/bindings/python/parsers/sample-models.hpp
+@comment MD5:e0c783a3c84f13290443cf71a5f99815
+include/pinocchio/bindings/python/parsers/srdf.hpp
+@comment MD5:7932be7ce1f3ba469f59e28e6795c0ac
+include/pinocchio/bindings/python/parsers/urdf.hpp
+@comment MD5:5985ae14b7a7fe540ffe32293b549f42
+include/pinocchio/bindings/python/pybind11-all.hpp
+@comment MD5:848b85897109cbdec237082a729dbaab
+include/pinocchio/bindings/python/pybind11.hpp
+@comment MD5:fc5a61910c018ad73608c9a1ceb5c1f1
+include/pinocchio/bindings/python/serialization/serializable.hpp
+@comment MD5:7c2149d087ef290bbda9721d1de27ffc
+include/pinocchio/bindings/python/serialization/serialization.hpp
+@comment MD5:35cd02940e22c06eeee3e6bf8f8c4496
+include/pinocchio/bindings/python/spatial/explog.hpp
+@comment MD5:e4f2ffe8bb7a2428a3e8a27761ee67bf
+include/pinocchio/bindings/python/spatial/force.hpp
+@comment MD5:371de309f12605f3368f5aca0fb4f940
+include/pinocchio/bindings/python/spatial/inertia.hpp
+@comment MD5:b1acd76e899a1a12b175304564cab083
+include/pinocchio/bindings/python/spatial/motion.hpp
+@comment MD5:cfa3de94c5fa28dde2e2837e51e31f97
+include/pinocchio/bindings/python/spatial/se3.hpp
+@comment MD5:32794690a17fdb20bb6ecd901ed93ba1
+include/pinocchio/bindings/python/utils/constant.hpp
+@comment MD5:4638745ef935a1ace2355a6eacf7f652
+include/pinocchio/bindings/python/utils/conversions.hpp
+@comment MD5:c98a4d74487a2026807f39955c835535
+include/pinocchio/bindings/python/utils/copyable.hpp
+@comment MD5:28bb1517c8a58e4234ad4951f534fc46
+include/pinocchio/bindings/python/utils/dependencies.hpp
+@comment MD5:91b611f089dae084f70554bbf8e8d382
+include/pinocchio/bindings/python/utils/deprecation.hpp
+@comment MD5:ad3b60844ce514ee34cc924a42530b55
+include/pinocchio/bindings/python/utils/eigen.hpp
+@comment MD5:ecb0c24d3fea187dcf7f68627865d76a
+include/pinocchio/bindings/python/utils/list.hpp
+@comment MD5:93584806d4ebeeeae3e5123b6e691f30
+include/pinocchio/bindings/python/utils/namespace.hpp
+@comment MD5:20f65e009cabc90ead560b76d66d3d9a
+include/pinocchio/bindings/python/utils/pickle-map.hpp
+@comment MD5:8189bbee935983e601c9341bb8e1a3d4
+include/pinocchio/bindings/python/utils/pickle-vector.hpp
+@comment MD5:1b17bc551e5aafa76493c33ae6822632
+include/pinocchio/bindings/python/utils/printable.hpp
+@comment MD5:8a83f5b80447a86b249ab0dc39cfa34d
+include/pinocchio/bindings/python/utils/registration.hpp
+@comment MD5:d28d80fcb830ebc34df3d741b3ac2bc7
+include/pinocchio/bindings/python/utils/std-aligned-vector.hpp
+@comment MD5:c8f3e51c14b15c600e15ce09cdb82e12
+include/pinocchio/bindings/python/utils/std-map.hpp
+@comment MD5:03da69db908534c667cd99e7a440de30
+include/pinocchio/bindings/python/utils/std-vector.hpp
+@comment MD5:05c9f0df7f357af37d46e267f93b2b95
+include/pinocchio/bindings/python/utils/version.hpp
+@comment MD5:91908fda4e15a3932a3904f932d376af
+include/pinocchio/codegen/code-generator-algo.hpp
+@comment MD5:365cd5c5f07721a66a3625ea404d3515
+include/pinocchio/codegen/code-generator-base.hpp
+@comment MD5:b9a9ec73e1f892f64e6613c2b101a306
+include/pinocchio/codegen/cppadcg.hpp
+@comment MD5:cb92ab69c3d7cde67c1d991966b03523
+include/pinocchio/config.hpp
+@comment MD5:5a284973a232bc3117f24cb2f6ed92be
+include/pinocchio/container/aligned-vector.hpp
+@comment MD5:67a61e865e4a5cc73854d26a18ccde1b
+include/pinocchio/container/boost-container-limits.hpp
+@comment MD5:8a1752545f85fcfc37825216152ef9ee
+include/pinocchio/core/binary-op.hpp
+@comment MD5:374d65f8fcf01b9ff427c956df9ac2c9
+include/pinocchio/core/unary-op.hpp
+@comment MD5:4f2bacda63608d39b28d103d9fa4558a
+include/pinocchio/deprecated-macros.hpp
+@comment MD5:aac2060e643b988b568d4789fd17152f
+include/pinocchio/deprecated-namespaces.hpp
+@comment MD5:81db06c92c47125cfc08aa92f99d5f9c
+include/pinocchio/deprecated.hpp
+@comment MD5:5b543c2f91e2718b1112005c2864256a
+include/pinocchio/deprecation.hpp
+@comment MD5:52f1aa4cd2ae6ce48a90a4afb169bf18
+include/pinocchio/eigen-macros.hpp
+@comment MD5:cd32eb987b21f2975ffcdbc88e6dad27
+include/pinocchio/fwd.hpp
+@comment MD5:da6bc3371369d0a270563ea5097f5b18
+include/pinocchio/macros.hpp
+@comment MD5:3069c02ccee7c447f44296068b553774
+include/pinocchio/math/casadi.hpp
+@comment MD5:353a719ecbadf0c15905452b3de46899
+include/pinocchio/math/comparison-operators.hpp
+@comment MD5:4f8ff3389e693cc56c81101476786986
+include/pinocchio/math/cppad.hpp
+@comment MD5:f96aea4cae1039bade82fc9b258be4c0
+include/pinocchio/math/cppadcg.hpp
+@comment MD5:0a116ebb75eff8d5181a6acf79744393
+include/pinocchio/math/fwd.hpp
+@comment MD5:012a67cb89611d5bdb8a4211e7fbb72a
+include/pinocchio/math/matrix-block.hpp
+@comment MD5:64788b37b8ad40f667e2706348438b43
+include/pinocchio/math/matrix.hpp
+@comment MD5:bf2015206bcdd78ae08a951d373d53e4
+include/pinocchio/math/multiprecision-mpfr.hpp
+@comment MD5:9ebc1043a4073136a9334c2531fb8450
+include/pinocchio/math/multiprecision.hpp
+@comment MD5:1b6127a357c4bf83a40c45339476ea97
+include/pinocchio/math/quaternion.hpp
+@comment MD5:8b66dcecc5cef0e9028fc10678370cf8
+include/pinocchio/math/rotation.hpp
+@comment MD5:1a3eb62af6ac77d83f45e96c118002da
+include/pinocchio/math/rpy.hpp
+@comment MD5:740422cd380b38aefe2ef4969585b627
+include/pinocchio/math/rpy.hxx
+@comment MD5:eb8eefa6129210c0602acb88167a2d40
+include/pinocchio/math/sign.hpp
+@comment MD5:d3d3640ad4fbd84b4a31b1644a3dc5f3
+include/pinocchio/math/sincos.hpp
+@comment MD5:2c0eb32d46dfa80b4b93a38c684740a8
+include/pinocchio/math/taylor-expansion.hpp
+@comment MD5:5d1ce44296d49a13779bfe8e363571b5
+include/pinocchio/math/tensor.hpp
+@comment MD5:d68ad8dbc2ac3f4ea8d92e371d072b44
+include/pinocchio/multibody/constraint-base.hpp
+@comment MD5:6e7af96fb6330ba968462cc00203eb52
+include/pinocchio/multibody/constraint-generic.hpp
+@comment MD5:37ee8bea6a18e4ce19cdd8b554ce55c3
+include/pinocchio/multibody/constraint.hpp
+@comment MD5:d25634987dd97b15d30f88d73612e7dd
+include/pinocchio/multibody/data.hpp
+@comment MD5:148f613b351f3d12427ce4e3a84b63d3
+include/pinocchio/multibody/data.hxx
+@comment MD5:971d7c0882f1614a2b46885a06b49aec
+include/pinocchio/multibody/fcl.hpp
+@comment MD5:974c4c215d197b1572240fa00f614590
+include/pinocchio/multibody/fcl.hxx
+@comment MD5:c5422c8d9671f888edcdcd8d04be643f
+include/pinocchio/multibody/force-set.hpp
+@comment MD5:b655bae01fd95611bcd15dce99ac1aab
+include/pinocchio/multibody/frame.hpp
+@comment MD5:c80566f666afc08f3dfb268b2074852d
+include/pinocchio/multibody/fwd.hpp
+@comment MD5:079a5236d991f6e3a59d90e7177e8b5b
+include/pinocchio/multibody/geometry.hpp
+@comment MD5:aebfb7fe025f45c5fde7e68001268977
+include/pinocchio/multibody/geometry.hxx
+@comment MD5:d033dd0825f309745a6b33c1be10117f
+include/pinocchio/multibody/joint/fwd.hpp
+@comment MD5:7eb144c28094f0e65c2269f53d2cf897
+include/pinocchio/multibody/joint/joint-base.hpp
+@comment MD5:b37f16970ebbef456111b9559fe34c65
+include/pinocchio/multibody/joint/joint-basic-visitors.hpp
+@comment MD5:78c8d399a93f76d87a1ac51dad507f1b
+include/pinocchio/multibody/joint/joint-basic-visitors.hxx
+@comment MD5:dfdf582b1636dc6a7114cc2681af66a6
+include/pinocchio/multibody/joint/joint-collection.hpp
+@comment MD5:1c4c64fe0bd0d8ef9f91885b65b28b2b
+include/pinocchio/multibody/joint/joint-common-operations.hpp
+@comment MD5:b90abc3f16f07ea535c20390007b5abd
+include/pinocchio/multibody/joint/joint-composite.hpp
+@comment MD5:4fee59351f645a0222a156b2f201a671
+include/pinocchio/multibody/joint/joint-composite.hxx
+@comment MD5:661bc7c7a559647651cd228fd9f75172
+include/pinocchio/multibody/joint/joint-data-base.hpp
+@comment MD5:a7bf0b4b791a3d1c959c4f246737e77c
+include/pinocchio/multibody/joint/joint-free-flyer.hpp
+@comment MD5:0780521c98713963e35686e21f0e73ef
+include/pinocchio/multibody/joint/joint-generic.hpp
+@comment MD5:cdb8375ee1cc6fc2a4f9d3418c9dae15
+include/pinocchio/multibody/joint/joint-mimic.hpp
+@comment MD5:161620ec1a0dde6435052ead7e0dc5f2
+include/pinocchio/multibody/joint/joint-model-base.hpp
+@comment MD5:7986bf12baac69c99a32f8ac8c21518c
+include/pinocchio/multibody/joint/joint-planar.hpp
+@comment MD5:b1de4015f8da52a985bc2f82ac0fc757
+include/pinocchio/multibody/joint/joint-prismatic-unaligned.hpp
+@comment MD5:2fe499e4a50eab13d0e754de82a8cbf7
+include/pinocchio/multibody/joint/joint-prismatic.hpp
+@comment MD5:91d8feaa47ec7ff655e0f234db234154
+include/pinocchio/multibody/joint/joint-revolute-unaligned.hpp
+@comment MD5:a5baea7be7ed38bfcc8f2f71e4787ef7
+include/pinocchio/multibody/joint/joint-revolute-unbounded-unaligned.hpp
+@comment MD5:76a0022f93c68ce220cfd037e7e09317
+include/pinocchio/multibody/joint/joint-revolute-unbounded.hpp
+@comment MD5:260a0880d4e5d48d37e11769c3863720
+include/pinocchio/multibody/joint/joint-revolute.hpp
+@comment MD5:3296834133a7f261a5f2ccfc188549a3
+include/pinocchio/multibody/joint/joint-spherical-ZYX.hpp
+@comment MD5:2c8e773dabb4d44eeac093a661a7da07
+include/pinocchio/multibody/joint/joint-spherical.hpp
+@comment MD5:54a11d5eed2c8d069d9df55fd02ec0fc
+include/pinocchio/multibody/joint/joint-translation.hpp
+@comment MD5:d3e0e9e3268839cfa28c069cc4d50131
+include/pinocchio/multibody/joint/joints.hpp
+@comment MD5:02f27d198a0737114481f5d9530e4f58
+include/pinocchio/multibody/liegroup/cartesian-product-variant.hpp
+@comment MD5:b91ed4fa29613196ee46e87d72b46404
+include/pinocchio/multibody/liegroup/cartesian-product-variant.hxx
+@comment MD5:62fc87f1ba721df5268a81ce7165bb46
+include/pinocchio/multibody/liegroup/cartesian-product.hpp
+@comment MD5:defc2d237a5f0d7ba7c7d744de48d550
+include/pinocchio/multibody/liegroup/fwd.hpp
+@comment MD5:7ca9afe720d12600dae55b42f16268c9
+include/pinocchio/multibody/liegroup/liegroup-algo.hpp
+@comment MD5:b4c003a63145d84f717c9c74f1f10422
+include/pinocchio/multibody/liegroup/liegroup-algo.hxx
+@comment MD5:96e4e1b731a266dec9f0c53f7e39ad5b
+include/pinocchio/multibody/liegroup/liegroup-base.hpp
+@comment MD5:da18f654638dc885dab48d029e892d09
+include/pinocchio/multibody/liegroup/liegroup-base.hxx
+@comment MD5:9bb7220236b18159833d395ddfcf97f4
+include/pinocchio/multibody/liegroup/liegroup-collection.hpp
+@comment MD5:7d0c0f944ac94db0d40ff0ac9ae9d389
+include/pinocchio/multibody/liegroup/liegroup-generic.hpp
+@comment MD5:453627fd79d3eeb6b546e1de27bc1f75
+include/pinocchio/multibody/liegroup/liegroup-variant-visitors.hpp
+@comment MD5:f41167897e4c082a0ce5a54110d3dbf7
+include/pinocchio/multibody/liegroup/liegroup-variant-visitors.hxx
+@comment MD5:e5333362f407672ab5147b293423c42e
+include/pinocchio/multibody/liegroup/liegroup.hpp
+@comment MD5:76d76364c33f93954f5fad94cb5715b9
+include/pinocchio/multibody/liegroup/special-euclidean.hpp
+@comment MD5:cae9c17015aa369ef4f03fc72abdb385
+include/pinocchio/multibody/liegroup/special-orthogonal.hpp
+@comment MD5:4125211a8533a4d3ce7bfea341b0f827
+include/pinocchio/multibody/liegroup/vector-space.hpp
+@comment MD5:399495f7de082ac5acfdb02af7e613a1
+include/pinocchio/multibody/model.hpp
+@comment MD5:b0d98b90e70663cb7d71f71b78a01ae2
+include/pinocchio/multibody/model.hxx
+@comment MD5:2f471f2c552229daa370d884aa3b77ca
+include/pinocchio/multibody/pool/geometry.hpp
+@comment MD5:8724ca911997366e2ebc0486537b2e80
+include/pinocchio/multibody/pool/model.hpp
+@comment MD5:852b7b787b7419f8b3697804dc421cab
+include/pinocchio/multibody/visitor.hpp
+@comment MD5:d2e6c68a1e82ecd3437ae4ad6477b16a
+include/pinocchio/multibody/visitor/fusion.hpp
+@comment MD5:eb0e90c364a6e2ebca59702c134a9d00
+include/pinocchio/multibody/visitor/joint-binary-visitor.hpp
+@comment MD5:cb05d88516636b8772b26c22a6819f99
+include/pinocchio/multibody/visitor/joint-unary-visitor.hpp
+@comment MD5:7c163e3c47050d2e51d891d5c91bd1cc
+include/pinocchio/parsers/python.hpp
+@comment MD5:4e324314a648a0113e1d064dca8694b1
+include/pinocchio/parsers/sample-models.hpp
+@comment MD5:7ca5205aeb05abdcb6d6be926dbf2546
+include/pinocchio/parsers/sample-models.hxx
+@comment MD5:5a594e9fa0ee454f53f28795bea876a9
+include/pinocchio/parsers/srdf.hpp
+@comment MD5:0785710ecbe49e6489502af65dce8a6f
+include/pinocchio/parsers/srdf.hxx
+@comment MD5:ed01a492d5abde3dc3e27a185d8469eb
+include/pinocchio/parsers/urdf.hpp
+@comment MD5:c7de64caea0682d7fefea63ac36fe569
+include/pinocchio/parsers/urdf/geometry.hxx
+@comment MD5:4fe16b75139b6394a3021caddd310ced
+include/pinocchio/parsers/urdf/model.hxx
+@comment MD5:fb56f8c57badc69b79700d55eeeca355
+include/pinocchio/parsers/urdf/types.hpp
+@comment MD5:f63a5078b6d188ca174438cd38bb3984
+include/pinocchio/parsers/urdf/utils.hpp
+@comment MD5:d96b505ef418987b6a7ca86bb255a8eb
+include/pinocchio/parsers/utils.hpp
+@comment MD5:cd2eccc2928fd7422e0f75ae70a2cf6e
+include/pinocchio/serialization/aligned-vector.hpp
+@comment MD5:435e887f8d0afe41b8e702adbb86c5e6
+include/pinocchio/serialization/archive.hpp
+@comment MD5:5b6c0775733d17f9009d6ae1030ea95a
+include/pinocchio/serialization/data.hpp
+@comment MD5:8e957c8816340faf07e960d1e59fbd32
+include/pinocchio/serialization/eigen.hpp
+@comment MD5:b85e4d8e0e79e564ef2adcc29efef112
+include/pinocchio/serialization/force.hpp
+@comment MD5:4414204cc36b8346fb5a15f7cf4cd00a
+include/pinocchio/serialization/frame.hpp
+@comment MD5:b618f6587fba27eacb9f0e3be18e722c
+include/pinocchio/serialization/fwd.hpp
+@comment MD5:d80565be1ded72ead76c9e6d88cc8982
+include/pinocchio/serialization/geometry.hpp
+@comment MD5:809891d49445cc3891224f868b4c66a1
+include/pinocchio/serialization/inertia.hpp
+@comment MD5:508e547622c7cab4b663dca225fa3d79
+include/pinocchio/serialization/joints-constraint.hpp
+@comment MD5:5ff16d761e1842504a9efc3c1aaf2d8b
+include/pinocchio/serialization/joints-data.hpp
+@comment MD5:6537247cc1c7909a1fad6191059f8b05
+include/pinocchio/serialization/joints-model.hpp
+@comment MD5:126ebddced8b9934ad6c4bcdab96cd06
+include/pinocchio/serialization/joints-motion.hpp
+@comment MD5:a24fc1f44c1691faffb229564657e9e0
+include/pinocchio/serialization/joints-transform.hpp
+@comment MD5:0558087c7c5c90413a1d7434487037ea
+include/pinocchio/serialization/joints.hpp
+@comment MD5:0663888debd53c0202ea750cbca77bda
+include/pinocchio/serialization/model.hpp
+@comment MD5:15e5b917059754967b153294db713aec
+include/pinocchio/serialization/motion.hpp
+@comment MD5:b094cad1e4bf0c547a514af31dfd619c
+include/pinocchio/serialization/se3.hpp
+@comment MD5:a1a86fb5090c856103702c924cca5c21
+include/pinocchio/serialization/serializable.hpp
+@comment MD5:642683f771b0e75db06b553d70e5d40c
+include/pinocchio/serialization/spatial.hpp
+@comment MD5:624f7f55123db73fa0ac9c6e98ede4ff
+include/pinocchio/serialization/static-buffer.hpp
+@comment MD5:e53265480642e466bc06edec45b6e097
+include/pinocchio/serialization/symmetric3.hpp
+@comment MD5:fae9351fcfef8c34c58452dfbab37182
+include/pinocchio/serialization/vector.hpp
+@comment MD5:786f8e1f4d288f098b01bc9895b2bf1e
+include/pinocchio/spatial/act-on-set.hpp
+@comment MD5:a552805b6a7d33c221ce5f98e5e17305
+include/pinocchio/spatial/act-on-set.hxx
+@comment MD5:ef1ed16d5d6ed9b468580dcbe98e4e34
+include/pinocchio/spatial/cartesian-axis.hpp
+@comment MD5:1befca65f769bb629dc56a4ad9e9a549
+include/pinocchio/spatial/explog-quaternion.hpp
+@comment MD5:6ef5994d1e39b07f3fecfb7cbf202ce1
+include/pinocchio/spatial/explog.hpp
+@comment MD5:306b86b8108e8781a57ca18ddfd164f1
+include/pinocchio/spatial/fcl-pinocchio-conversions.hpp
+@comment MD5:808766a595ca592e3cdee51d700a6d33
+include/pinocchio/spatial/force-base.hpp
+@comment MD5:9565156195e42cb179ffca0bbfef0e6b
+include/pinocchio/spatial/force-dense.hpp
+@comment MD5:2e021566192e40b2b39d60a1fdc6d485
+include/pinocchio/spatial/force-ref.hpp
+@comment MD5:716152d62c8721f3b8879dbe937cd929
+include/pinocchio/spatial/force-tpl.hpp
+@comment MD5:20172a1018a78a5767a4bc6588405f17
+include/pinocchio/spatial/force.hpp
+@comment MD5:3810e5ee84f37d7edffcd3f050430a6b
+include/pinocchio/spatial/fwd.hpp
+@comment MD5:f2d8cbe3e3b4a93db98a4aaeaf2187c4
+include/pinocchio/spatial/inertia.hpp
+@comment MD5:e14a554a59f2abef8fc235186f94b57f
+include/pinocchio/spatial/log.hpp
+@comment MD5:e1e92e73c0c5ba459bccbeb9a9639be5
+include/pinocchio/spatial/log.hxx
+@comment MD5:66004d583a6b217dc1bc9b44c6482811
+include/pinocchio/spatial/motion-base.hpp
+@comment MD5:56b20c97877b92fea9e2ca6202a31030
+include/pinocchio/spatial/motion-dense.hpp
+@comment MD5:696d71e6971add6301fca45ab94f9a61
+include/pinocchio/spatial/motion-ref.hpp
+@comment MD5:e451852330d00980eb0f3859736706b4
+include/pinocchio/spatial/motion-tpl.hpp
+@comment MD5:dd7afa3ca23f6c21ad5c6acb9dad9773
+include/pinocchio/spatial/motion-zero.hpp
+@comment MD5:76e644081525eb9275ffed24a0f1fe51
+include/pinocchio/spatial/motion.hpp
+@comment MD5:a94abeec37949c8802ee5fc60b3b66bc
+include/pinocchio/spatial/se3-base.hpp
+@comment MD5:de439e13e8a671fde3d954f222a627b3
+include/pinocchio/spatial/se3-tpl.hpp
+@comment MD5:01bf1f891e6c9923a34cb1b2dd97da91
+include/pinocchio/spatial/se3.hpp
+@comment MD5:82b10c0773f240fce9e8caf413cbc1e3
+include/pinocchio/spatial/skew.hpp
+@comment MD5:41833b98c99ed5dfcde2adcb19d1f845
+include/pinocchio/spatial/spatial-axis.hpp
+@comment MD5:da5ed4e5793c4d81b0a247415f3869f3
+include/pinocchio/spatial/symmetric3.hpp
+@comment MD5:bfaeca48e14be4c9f0ee52767ba115b8
+include/pinocchio/utils/axis-label.hpp
+@comment MD5:408f3a41bc9323ccfb6954c4ea75cc14
+include/pinocchio/utils/cast.hpp
+@comment MD5:16e98000cb83d394692852cd00226fd9
+include/pinocchio/utils/eigen-fix.hpp
+@comment MD5:79a9de397f2187406c8a34b1efecb8bf
+include/pinocchio/utils/file-explorer.hpp
+@comment MD5:ae24892f50294d5808fa520b2635a04e
+include/pinocchio/utils/helpers.hpp
+@comment MD5:059c260ca8890418a84454edf49d67e4
+include/pinocchio/utils/openmp.hpp
+@comment MD5:6b428a7afb376c1d606b773a5cfa318b
+include/pinocchio/utils/static-if.hpp
+@comment MD5:ed4fbcbf43943b6c63a0b2f5b641599c
+include/pinocchio/utils/string-generator.hpp
+@comment MD5:ee10103e628c9c7907a942cce820265d
+include/pinocchio/utils/timer.hpp
+@comment MD5:f3758747f40f59af61c83dbf8853bee6
+include/pinocchio/utils/version.hpp
+@comment MD5:80c22c8041467d6ad59cdcfe5d8f54e8
+include/pinocchio/warning.hpp
+@comment MD5:72a1b6b4749cc9a5b24e92c5b75288a2
+lib/cmake/pinocchio/pinocchioConfig.cmake
+@comment MD5:95df96374bd858bebf963dc0a232dc16
+lib/cmake/pinocchio/pinocchioConfigVersion.cmake
+@comment MD5:9dd28959219d801b98eca87029b235de
+lib/cmake/pinocchio/pinocchioTargets-release.cmake
+@comment MD5:4a921f7550b1753dc5beec33b7a74e33
+lib/cmake/pinocchio/pinocchioTargets.cmake
+@comment MD5:795c3736eff4cab2e6ee172f06e9728e
+lib/libpinocchio.so
+@comment Symlink:libpinocchio.so.2.6.5
+lib/libpinocchio.so.2.6.5
+@comment MD5:6a8d3f7b69ec844b7120c64ff4b73b3c
+lib/pkgconfig/pinocchio.pc
+@comment MD5:59dd9d60e6a88f397272145775a6adab
+share/pinocchio/package.xml
+@comment MD5:8ca10dfc05536b17d08e3546ab02f8ce
+@cwd /opt/openrobots
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

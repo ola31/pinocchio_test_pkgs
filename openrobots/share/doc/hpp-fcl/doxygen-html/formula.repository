@@ -1,0 +1,13 @@
+\form#0:$ p_in_0 = oR1 * p_in_1 + ot1 $
+\form#1:$ d = - R - 1 $
+\form#2:$ - R \le d \le 0 $
+\form#3:$ 0 < d \le d_{ub} $
+\form#4:$ d_{ub} < d $
+\form#5:$ d $
+\form#6:$ R $
+\form#7:$ d_{ub} $
+\form#8:$ { x~\in~\mathbb{R}^3, d(x, AB) \leq radius } $
+\form#9:$ d(x, AB) $
+\form#10:$ A = (0,0,-halfLength), B = (0,0,halfLength) $
+\form#11:$ z = - halfLength $
+\form#12:$ z = halfLength $
